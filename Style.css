@@ -1,0 +1,215 @@
+.Container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.big-button{
+    padding: 25px 90px 25px 90px;
+    text-decoration: none;
+    color: white;
+    background-color: #eb7d4b;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Section 1 */
+#Section-1{
+    background-color: #87509c;
+    min-height: 595px;
+}
+
+header{
+    padding: 55px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li {
+    display: inline-block ;
+    margin: 10px;
+    padding: 10px 16px 10px 16px;
+    text-transform: uppercase;
+}
+
+nav ul li:hover{
+    background-color: #643a79;
+    border-radius: 5px;
+
+}
+
+nav ul li.Active {
+    background-color: #643a79 ;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#Main-heading-container{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#Main-heading-container h1{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+/*Section 2*/
+#Section-2{
+    background-color: #17c2a4;
+    min-height: 745px;
+    color: white;
+}
+.Title-box{
+    text-align: center;
+    max-width: 609px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title-box h2{
+    padding-top: 120px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Title-box .line{
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title-box p{
+    font-size: 18px;
+}
+.Blurb-row{
+    margin-top: 80px;
+}
+.blurb{
+    width: 23.33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.blurb h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.blurb p{
+    font-size: 16px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Section-3*/
+
+#Section-3{
+    background-color: #3c5499;
+    color: white;
+    min-height: 820PX;
+}
+
+.Title-box p{
+    font-size: 14px;
+}
+
+.form-row .big-button{
+    background-color: #30bae7;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+
+}
+
+#Contact-form{
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"], input[type="email"], textarea{
+    color: white;
+    background-color: #273a71;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input[type="text"], input[type="email"]{
+    width: 50%;
+    height: 50px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+.form-row{
+    display: flex;
+}
+
+/*Footer*/
+ footer{
+    background-color: #344b8e;
+ }
+
+ .footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .footer-links ul{
+    margin: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+ .footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+ }
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-links ul li.active a{
+    color: #30bae7;
+}
